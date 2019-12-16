@@ -93,6 +93,10 @@ a {
     margin: 1em 0;
 }
 
+hr {
+    border: dashed black 1px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +109,28 @@ a {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.learn-box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 7px;
+    margin: 10px 0;
+}
+
+.learn-box button {
+    margin: 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    font-size: large;
+    cursor: pointer;
 }
 
 .middle-content {
