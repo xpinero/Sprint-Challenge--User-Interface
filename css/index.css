@@ -89,6 +89,10 @@ a {
     padding: 15px;
 }
 
+.about {
+    margin: 1em 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
