@@ -71,11 +71,37 @@ p {
     margin: 0 auto;
 }
 
+.top-nav {
+    display: flex;
+    width: 100%;
+    margin: 1em;
+}
+
+.top-nav nav {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.about {
+    margin: 1em 0;
+}
+
+hr {
+    border: dashed black 1px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0;
     border-bottom: 1px dashed black;
 }
 
@@ -83,6 +109,28 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.learn-box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding: 0 0 20px 7px;
+    margin: 10px 0;
+}
+
+.learn-box button {
+    margin: 10px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    font-size: large;
+    cursor: pointer;
 }
 
 .middle-content {
@@ -110,6 +158,50 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
